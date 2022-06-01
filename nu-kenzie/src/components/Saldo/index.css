@@ -1,0 +1,28 @@
+@media (max-width:360px) {
+
+    .saldo-titulo {
+        display        : flex;
+        justify-content: space-evenly;
+        padding        : 20px;
+        max-width      : 270px;
+        height         : 96px;
+        box-sizing     : border-box;
+        color          : crimson;
+    }
+
+}
+
+.saldo-titulo {
+    display        : flex;
+    justify-content: space-between;
+    padding        : 20px;
+    max-width      : 360px;
+    height         : 96px;
+    box-sizing     : border-box;
+    color          : crimson;
+    margin         : auto;
+}
+
+.saldo-valor {
+    color: black;
+}

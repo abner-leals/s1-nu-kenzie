@@ -1,0 +1,391 @@
+@media (max-width:360px) {
+    .ResumoFinanceiro-divBotoes {
+        justify-content: center;
+        align-items    : center;
+        display        : flex;
+        flex-direction : column;
+        margin         : auto;
+    }
+
+    .h3pantarma {
+        text-align: center;
+    }
+
+    .ulpantarma {
+        display       : flex;
+        box-sizing    : border-box;
+        flex-direction: column;
+        margin        : auto;
+        list-style    : none;
+        padding       : 0 10px;
+        gap           : 10px;
+        max-width     : 90%;
+    }
+
+    .lipantarma {
+        width           : 100%;
+        height          : 90px;
+        background-color: #F8F9FA;
+        display         : flex;
+        flex-direction  : column;
+        justify-content : center;
+        align-items     : flex-start;
+        padding         : 0 10px;
+        gap             : 10px;
+    }
+
+    .pantarma {
+        width           : 90%;
+        height          : 20px;
+        background-color: #E9ECEF;
+
+    }
+
+    .pantarma2 {
+        width           : 30%;
+        height          : 20px;
+        background-color: #E9ECEF;
+
+    }
+
+    .container-conteudo {
+        display       : flex;
+        flex-direction: column;
+        margin        : auto;
+        align-items   : center;
+    }
+
+    .form {
+        width      : 270px;
+        max-height : 450px;
+        padding    : 38px auto;
+        gap        : 40px;
+        align-items: center;
+    }
+
+
+    .container-components {
+        margin        : auto;
+        max-width     : 270px;
+        display       : flex;
+        flex-direction: column;
+    }
+
+    .container-lista {
+        padding-left: 0px;
+        margin-left : 0px;
+        margin-right: 0px;
+        width       : 270px;
+
+    }
+
+    .Entrada {
+        box-shadow            : inset .3em 0 rgba(53, 187, 53, 0.719);
+        align-items           : center;
+        display               : flex;
+        justify-content       : space-between;
+        list-style-type       : none;
+        margin-bottom         : 0px;
+        margin-left           : 0px;
+        margin-right          : 0px;
+        margin-top            : 0px;
+        max-width             : 360px;
+        padding-bottom        : 10px;
+        padding-left          : 10px;
+        padding-right         : 10px;
+        padding-top           : 10px;
+        width                 : 270px;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    .Saída {
+        box-shadow            : inset .3em 0 rgba(187, 53, 53, 0.719);
+        align-items           : center;
+        display               : flex;
+        justify-content       : space-between;
+        list-style-type       : none;
+        margin-bottom         : 0px;
+        margin-left           : 0px;
+        margin-right          : 0px;
+        margin-top            : 0px;
+        max-width             : 360px;
+        padding-bottom        : 10px;
+        padding-left          : 10px;
+        padding-right         : 10px;
+        padding-top           : 10px;
+        width                 : 270px;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    .form-div {
+        display        : flex;
+        flex-direction : column;
+        justify-content: space-between;
+        align-items    : center;
+    }
+
+    .form-input {
+        box-sizing : border-box;
+        height     : 50px;
+        width      : 250px;
+        font-size  : 16px;
+        line-height: 26px;
+        padding    : 15px;
+    }
+
+    .form-input {
+        box-sizing : border-box;
+        height     : 50px;
+        width      : 250px;
+        font-size  : 16px;
+        line-height: 26px;
+        padding    : 15px;
+    }
+
+    .container-form {
+        width          : 100;
+        display        : flex;
+        align-items    : center;
+        justify-content: center;
+    }
+
+    .form-button {
+        width           : calc(10px + 2vmin);
+        height          : 50px;
+        color           : white;
+        background-color: crimson;
+        cursor          : pointer;
+        margin          : auto;
+    }
+
+}
+
+.container-form {
+    width          : 100;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+
+
+.form {
+    box-sizing    : border-box;
+    display       : flex;
+    flex-direction: column;
+    width         : 360px;
+    height        : 360px;
+    padding       : 38px auto;
+    gap           : 40px
+}
+
+.container-lista {
+    padding        : 0;
+    margin         : 0;
+    display        : flex;
+    flex-direction : column;
+    width          : 100;
+    align-items    : center;
+    justify-content: center;
+}
+
+.form-label {
+
+    font-weight   : bolder;
+    display       : flex;
+    flex-direction: column;
+}
+
+.form-label_ex {
+    font-weight: 0;
+    font-size  : 12px;
+}
+
+.form-div {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+}
+
+.form-input {
+    box-sizing : border-box;
+    height     : 50px;
+    font-size  : 16px;
+    line-height: 26px;
+    padding    : 15px;
+}
+
+.valor {
+    max-width: 200px;
+}
+
+.form-button {
+    width           : calc(200px + 20vmin);
+    height          : 50px;
+    color           : white;
+    background-color: crimson;
+    cursor          : pointer;
+    margin          : auto;
+    max-width       : 350px;
+}
+
+.Entrada {
+    box-shadow            : inset .3em 0 rgba(53, 187, 53, 0.719);
+    align-items           : center;
+    display               : flex;
+    justify-content       : space-between;
+    list-style-type       : none;
+    margin-bottom         : 0px;
+    margin-left           : 0px;
+    margin-right          : 0px;
+    margin-top            : 0px;
+    max-width             : 450px;
+    padding-bottom        : 10px;
+    padding-left          : 10px;
+    padding-right         : 10px;
+    padding-top           : 10px;
+    min-width             : 350px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.Saída {
+    box-shadow            : inset .3em 0 rgba(187, 53, 53, 0.719);
+    align-items           : center;
+    display               : flex;
+    justify-content       : space-between;
+    list-style-type       : none;
+    margin-bottom         : 0px;
+    margin-left           : 0px;
+    margin-right          : 0px;
+    margin-top            : 0px;
+    max-width             : 450px;
+    padding-bottom        : 10px;
+    padding-left          : 10px;
+    padding-right         : 10px;
+    padding-top           : 10px;
+    min-width             : 350px;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+@media (max-width:900px) {
+    .ResumoFinanceiro-divBotoes {
+        justify-content: center;
+        align-items    : center;
+        display        : flex;
+        flex-direction : column;
+        margin         : auto;
+    }
+
+    .h3pantarma {
+        text-align: center;
+    }
+
+    .ulpantarma {
+        display       : flex;
+        box-sizing    : border-box;
+        flex-direction: column;
+        margin        : auto;
+        list-style    : none;
+        padding       : 0 10px;
+        gap           : 10px;
+        max-width     : 90%;
+        max-width     : 450px;
+        align-items   : center;
+    }
+
+    .lipantarma {
+        width           : 100%;
+        height          : 90px;
+        background-color: #F8F9FA;
+        display         : flex;
+        flex-direction  : column;
+        justify-content : center;
+        align-items     : flex-start;
+        padding         : 0 10px;
+        gap             : 10px;
+        max-width       : 450px;
+    }
+
+    .pantarma {
+        width           : 90%;
+        height          : 20px;
+        background-color: #E9ECEF;
+        max-width       : 390px;
+
+    }
+
+    .pantarma2 {
+        width           : 30%;
+        height          : 20px;
+        background-color: #E9ECEF;
+        max-width       : 130;
+
+    }
+}
+
+@media (min-width:900px) {
+    .container-conteudo {
+        display        : flex;
+        justify-content: space-evenly;
+
+    }
+
+    .Container-ResumoFinanceiro {
+        width: 500px;
+    }
+
+    .container-components {
+        display       : flex;
+        flex-direction: column;
+    }
+
+    .ResumoFinanceiro-divBotoes {
+        justify-content: space-between;
+        align-items    : center;
+        display        : flex;
+        margin         : auto;
+        padding        : 0 20px;
+    }
+}
+
+.h3pantarma {
+    text-align: center;
+}
+
+.ulpantarma {
+    display       : flex;
+    box-sizing    : border-box;
+    flex-direction: column;
+    margin        : auto;
+    list-style    : none;
+    padding       : 0 10px;
+    gap           : 10px;
+    max-width     : 90%;
+}
+
+.lipantarma {
+    width           : 100%;
+    height          : 90px;
+    background-color: #F8F9FA;
+    display         : flex;
+    flex-direction  : column;
+    justify-content : center;
+    align-items     : flex-start;
+    padding         : 0 10px;
+    gap             : 10px;
+}
+
+.pantarma {
+    width           : 90%;
+    height          : 20px;
+    background-color: #E9ECEF;
+
+}
+
+.pantarma2 {
+    width           : 30%;
+    height          : 20px;
+    background-color: #E9ECEF;
+
+}

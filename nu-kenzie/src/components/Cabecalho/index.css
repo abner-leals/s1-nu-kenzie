@@ -1,0 +1,40 @@
+.kabecalho-container {
+    box-sizing     : border-box;
+    display        : flex;
+    justify-content: space-between;
+    padding        : 30px;
+    height         : 80px;
+    width          : 100vw;
+    align-items    : center;
+    box-shadow     : 0 0 10px gray;
+    margin-bottom  : 15px;
+
+}
+
+.kabecalho-titulo {
+    color      : #212529;
+    font-weight: bolder;
+}
+
+.kabecalho-titulo_span {
+    color: #FD377E;
+
+    font-weight: bolder;
+}
+
+.cont-btn {
+    display  : flex;
+    gap      : 5px;
+    flex-wrap: nowrap;
+}
+
+.kabecalho-botao {
+    display      : flex;
+    height       : 40px;
+    min-width    : 64px;
+    border-radius: 8px;
+    padding      : 15px;
+    align-items  : center;
+    cursor       : pointer;
+
+}
