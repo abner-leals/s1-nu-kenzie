@@ -4,6 +4,11 @@ import "./index.css";
 
 export function ResumoFinanceiro({ financas, setFinancas, props }) {
   const [Filtro, setFiltro] = useState("");
+  const [ativo, setAtivo] = useState({
+    todos: "kabecalho-botao ativo",
+    entrada: "kabecalho-botao",
+    saida: "kabecalho-botao",
+  });
   function deletar(id) {
     setFinancas(financas.filter((element) => element.id !== id));
   }
@@ -13,27 +18,44 @@ export function ResumoFinanceiro({ financas, setFinancas, props }) {
         <h3>Resumo Financeiro</h3>
         <div className="cont-btn">
           <button
-            className="kabecalho-botao"
+            className={ativo.todos}
             name="Todos"
-            onClick={() => setFiltro("")}
+            onClick={() => {
+              setFiltro("");
+              setAtivo({
+                todos: "kabecalho-botao ativo",
+                entrada: "kabecalho-botao",
+                saida: "kabecalho-botao",
+              });
+            }}
           >
             Todos
           </button>
           <button
-            className="kabecalho-botao"
+            className={ativo.entrada}
             name="Entrada"
-            onClick={() =>
-              setFiltro(financas.filter((elem) => elem.tipo !== "Saída"))
-            }
+            onClick={() => {
+              setFiltro(financas.filter((elem) => elem.tipo !== "Saída"));
+              setAtivo({
+                entrada: "kabecalho-botao ativo",
+                todos: "kabecalho-botao",
+                saida: "kabecalho-botao",
+              });
+            }}
           >
             Entradas
           </button>
           <button
-            className="kabecalho-botao"
+            className={ativo.saida}
             name="Saída"
-            onClick={() =>
-              setFiltro(financas.filter((elem) => elem.tipo === "Saída"))
-            }
+            onClick={() => {
+              setFiltro(financas.filter((elem) => elem.tipo === "Saída"));
+              setAtivo({
+                saida: "kabecalho-botao ativo",
+                entrada: "kabecalho-botao",
+                todos: "kabecalho-botao",
+              });
+            }}
           >
             Saídas
           </button>
@@ -61,27 +83,44 @@ export function ResumoFinanceiro({ financas, setFinancas, props }) {
         <h3>Resumo Financeiro</h3>
         <div className="cont-btn">
           <button
-            className="kabecalho-botao"
+            className={ativo.todos}
             name="Todos"
-            onClick={() => setFiltro("")}
+            onClick={() => {
+              setFiltro("");
+              setAtivo({
+                todos: "kabecalho-botao ativo",
+                entrada: "kabecalho-botao",
+                saida: "kabecalho-botao",
+              });
+            }}
           >
             Todos
           </button>
           <button
-            className="kabecalho-botao"
+            className={ativo.entrada}
             name="Entrada"
-            onClick={() =>
-              setFiltro(financas.filter((elem) => elem.tipo !== "Saída"))
-            }
+            onClick={() => {
+              setFiltro(financas.filter((elem) => elem.tipo !== "Saída"));
+              setAtivo({
+                entrada: "kabecalho-botao ativo",
+                todos: "kabecalho-botao",
+                saida: "kabecalho-botao",
+              });
+            }}
           >
             Entradas
           </button>
           <button
-            className="kabecalho-botao"
+            className={ativo.saida}
             name="Saída"
-            onClick={() =>
-              setFiltro(financas.filter((elem) => elem.tipo === "Saída"))
-            }
+            onClick={() => {
+              setFiltro(financas.filter((elem) => elem.tipo === "Saída"));
+              setAtivo({
+                saida: "kabecalho-botao ativo",
+                entrada: "kabecalho-botao",
+                todos: "kabecalho-botao",
+              });
+            }}
           >
             Saídas
           </button>
